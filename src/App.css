@@ -2,14 +2,13 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-rows: 5vh 100vh;
+  grid-template-rows: 7vh 100vh;
 }
 
 .app_navbar {
   height: 5%;
   width: 100vw;
-  background-color:black;
-  opacity: 70%;
+  
   display: flex;
   position: fixed;
 }

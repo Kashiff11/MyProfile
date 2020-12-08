@@ -1,0 +1,49 @@
+.menu_bar {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+}
+
+.menu {
+  width: 45px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu_change {
+  width: 45px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: white;
+  height: 5px;
+  width: 35px;
+  display: block;
+  border-radius: 10px;
+}
+
+#bar1 {
+  transform: translateY(-4px)
+}
+
+#bar3 {
+  transform: translateY(4px)  
+}
+
+.menu_change .bar {
+  background-color: yellow;
+}
+
+.menu_change #bar1 {
+  transform: translateY(4px)
+}
+
+.menu_change #bar3 {
+  transform: translateY(-6px)
+}
