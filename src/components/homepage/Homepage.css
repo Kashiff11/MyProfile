@@ -1,0 +1,27 @@
+.home_page_container {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-family: 'Flamenco', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+} 
+
+p {
+  margin: 0 auto;
+  font-size: x-large;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(255, 254, 21);
+  margin-bottom: 15px;
+}
+
+.home_page_name {
+  color: green;
+  font-weight: bold;
+}
