@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+
 .app {
   height: 100vh;
   width: 100vw;
@@ -6,16 +8,15 @@
 }
 
 .app_navbar {
-  height: 5%;
+  height: 7%;
   width: 100vw;
-  
   display: flex;
   position: fixed;
 }
 
 .app_body_container {
   height: 100vh;
-  grid-row-start: 2;
+  grid-row-start: 1;
   grid-row-end: 3;
   display: grid;
   grid-template-rows: 100% 100% 200%;
@@ -31,7 +32,6 @@
 .app_about_me_page {
   grid-row-start: 2;
   grid-row-end: 3;
-  background-color: black;
 }
 
 .second_background {
