@@ -16,53 +16,9 @@
   display: flex;
 }
 
-.about_me_categories {
-  height: 100%;
-  display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
-
+.test {
+  color: white;
 }
 
-.category_titles {
-  padding-top: 50%;
-}
 
-#who_am_i {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  align-content: center;
-}
 
-.about_me_content {
-  padding-left: 8%;
-  padding-right: 8%;
-  margin: auto;
-}
-
-.about_me_content_title {
-  font-size: xxx-large;
-  color: yellow;
-  font-weight: bolder;
-}
-
-.about_me_content_desc {
-  font-size: xx-large;
-  font-weight: bolder;
-}
-
-#skills {
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-#experience {
-  grid-row-start: 3;
-  grid-row-end: 4;
-
-}
-
-#education {
-  grid-row-start: 4;
-  grid-row-end: 5;
-
-}
