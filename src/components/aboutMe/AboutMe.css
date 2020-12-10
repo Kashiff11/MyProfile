@@ -1,8 +1,8 @@
 .about_me_full_div {
   background-color: black;
-  height: 100vh;
-  width: 55vw;
-  margin-left: 45vw;
+  height: 105vh;
+  width: 70%;
+  margin-left: 30%;
   display: flex;
   justify-content: center;
   color: white;
@@ -13,12 +13,39 @@
   height: 95%;
   width: 95%;
   margin-top: 2.5%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 
-.test {
+.choices {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: x-large;
+}
+
+.nav-link {
   color: white;
 }
 
+.content {
+  color: white;
+}
 
+.dont_show {
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_title {
+  font-size: xx-large;
+}
 

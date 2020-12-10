@@ -5,6 +5,7 @@ import Homepage from './components/homepage/Homepage';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projetcs/Projects';
 
+
 function App() {
   return (
     <div className="app">
