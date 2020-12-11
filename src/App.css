@@ -43,7 +43,7 @@
   grid-row-start: 3;
   grid-row-end: 4;
   display: grid;
-  grid-template-rows: 100% 100%;
+  grid-template-rows: 105vh 105vh;
 }
 
 .app_projects {
@@ -52,7 +52,6 @@
 }
 
 .app_contact_me_page {
-  background-color: white;
   grid-row-start: 2;
   grid-row-end: 3;
 }
