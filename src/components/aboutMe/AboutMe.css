@@ -1,8 +1,8 @@
 .about_me_full_div {
   background-color: black;
-  height: 100vh;
-  width: 55vw;
-  margin-left: 45vw;
+  height: 105vh;
+  width: 80%;
+  margin-left: 20%;
   display: flex;
   justify-content: center;
   color: white;
@@ -13,56 +13,90 @@
   height: 95%;
   width: 95%;
   margin-top: 2.5%;
-  display: flex;
-}
-
-.about_me_categories {
-  height: 100%;
   display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
-
+  grid-template-columns: 20% 80%;
 }
 
-.category_titles {
-  padding-top: 50%;
+.choices {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: x-large;
+  color: white;
 }
 
-#who_am_i {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  align-content: center;
-}
-
-.about_me_content {
-  padding-left: 8%;
-  padding-right: 8%;
-  margin: auto;
-}
-
-.about_me_content_title {
-  font-size: xxx-large;
+.active {
   color: yellow;
-  font-weight: bolder;
-}
-
-.about_me_content_desc {
   font-size: xx-large;
   font-weight: bolder;
 }
 
-#skills {
-  grid-row-start: 2;
-  grid-row-end: 3;
+
+
+.nav-link {
+  color: white;
 }
 
-#experience {
-  grid-row-start: 3;
-  grid-row-end: 4;
-
+.content {
+  color: white;
+  padding:0px 50px;
+  display: flex;
+  justify-self: center;
 }
 
-#education {
-  grid-row-start: 4;
-  grid-row-end: 5;
-
+.dont_show {
+  display: none;
 }
+
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who_am_i_description {
+  color: yellow;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+  
+
+.icon_container {
+  display: flex;
+  height: 100%;
+}
+
+.icon_container1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon_container2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.react_logo {
+  width: 80px;
+}
+
+.ruby_logo {
+  width: 60px;
+}
+
+.html_css_js_logo {
+  width: 150px;
+}
+
+.rails_logo, .mongodb_logo, .nodejs_logo, .postgresSQL_logo, .express_logo {
+  width: 100px;
+}
+

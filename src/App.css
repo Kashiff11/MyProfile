@@ -9,13 +9,13 @@
 
 .app_navbar {
   height: 7%;
-  width: 100vw;
+  width: 105vw;
   display: flex;
   position: fixed;
 }
 
 .app_body_container {
-  height: 100vh;
+  height: 105vh;
   grid-row-start: 1;
   grid-row-end: 3;
   display: grid;
