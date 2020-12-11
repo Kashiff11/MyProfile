@@ -48,16 +48,16 @@ export default function AboutMe() {
           <div className={selected === tabs[1] ? "show" : "dont_show"}>
             <div className="icon_container">
               <div className="icon_container1">
-                <div><img src={html_css_js} alt="html logo" className="html_css_js_logo"/></div>
-                <div><img src={React_logo} alt="react logo" className="react_logo" /></div>
-                <div><img src={ruby_logo} alt="ruby logo" className="ruby_logo" /></div>
-                <div><img src={rails_logo} alt="rails logo" className="rails_logo" /></div>
+                <div className="logo_divs"><img src={html_css_js} alt="html logo" className="html_css_js_logo"/><p>HTML, CSS, JavaScript</p></div>
+                <div className="logo_divs"><img src={React_logo} alt="react logo" className="react_logo" /><p>ReactJS</p></div>
+                <div className="logo_divs"><img src={ruby_logo} alt="ruby logo" className="ruby_logo" /><p>Ruby</p></div>
+                <div className="logo_divs"><img src={rails_logo} alt="rails logo" className="rails_logo" /><p>Ruby on Rails</p></div>
               </div>
               <div className="icon_container2">
-                <div><img src={mongodb_logo} alt="rails logo" className="mongodb_logo" /></div>
-                <div><img src={nodejs_logo} alt="rails logo" className="nodejs_logo" /></div>
-                <div><img src={postgresSQL_logo} alt="rails logo" className="postgresSQL_logo" /></div>
-                <div><img src={express_logo} alt="rails logo" className="express_logo" /></div>
+                <div className="logo_divs"><img src={mongodb_logo} alt="rails logo" className="mongodb_logo" /><p>MongoDB</p></div>
+                <div className="logo_divs"><img src={nodejs_logo} alt="rails logo" className="nodejs_logo" /><p>NodeJS</p></div>
+                <div className="logo_divs"><img src={postgresSQL_logo} alt="rails logo" className="postgresSQL_logo" /><p>PostgresSQL</p></div>
+                <div className="logo_divs"><img src={express_logo} alt="rails logo" className="express_logo" /><p>ExpressJS</p></div>
               </div>
             </div>
           </div>

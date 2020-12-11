@@ -1,0 +1,14 @@
+.projects_container {
+  height: 100%;
+  width: 80%;
+  background-color: rgb(1,21,0);
+  color: white;
+  font-family: 'Flamenco', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meshed {
+  width: 30%;
+}
