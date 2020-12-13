@@ -1,7 +1,7 @@
 .home_page_container {
   height: 100%;
-  width: 80%;
-  background-color: black;
+  width: 100%;
+  background: linear-gradient(45deg, black 65%, rgba(0,0,0,0%) );
   color: white;
   font-family: 'Flamenco', cursive;
   display: flex;
