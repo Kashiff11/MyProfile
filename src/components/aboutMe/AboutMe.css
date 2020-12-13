@@ -1,8 +1,7 @@
 .about_me_full_div {
   background-color: black;
-  height: 105vh;
-  width: 80%;
-  margin-left: 20%;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   color: white;
@@ -43,7 +42,7 @@
   color: white;
   padding:0px 50px;
   display: flex;
-  justify-self: center;
+
 }
 
 .dont_show {
@@ -54,6 +53,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.general_assembly {
+  font-size: xx-large;
+  color: yellow;
+}
+
+.date {
+  font-size: x-large;
+  color: white;
+}
+
+.galogo {
+  width: 50px;
+}
+
+.kkhanlogo {
+  width: 150px;
+  border: white 5px;
+  padding: 5px;
 }
 
 .who_am_i_description {
@@ -83,6 +102,21 @@
   flex-direction: column;
   height: 100%;
   justify-content: space-evenly;
+}
+
+.icon_container3 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  margin-left: 50px;
+}
+
+.icon_container4 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
   margin-left: 50px;
 }
 
@@ -100,11 +134,21 @@
   width: 60px;
 }
 
-.html_css_js_logo {
-  width: 150px;
+.rails_logo, .mongodb_logo, .nodejs_logo, .postgresSQL_logo, .express_logo, .materialUI {
+  width: 100px;
 }
 
-.rails_logo, .mongodb_logo, .nodejs_logo, .postgresSQL_logo, .express_logo {
+.bootstrap, .git_logo, .html, .azure {
   width: 100px;
+}
+
+.javascript {
+  width: 85px;
+  margin-top: 15px;
+}
+
+.css {
+  width: 130px;
+  margin-top: -10px;
 }
 
