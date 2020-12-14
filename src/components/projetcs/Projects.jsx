@@ -36,17 +36,37 @@ export default function Projects() {
             <div className="meshedDesc">
               <p className="desc">Frontend app for family organization built with React, React Router, Axios, CSS,
               creating an API with full CRUD functionality using Airtable.</p>
-              <div>
-                <a href={'https://agitated-northcutt-4a166c.netlify.app/'} target="_blank">Visit App</a>
+              <div className="buttons">
+                <a href={'https://agitated-northcutt-4a166c.netlify.app/'} target="_blank"><button className="test">Visit App</button></a>
+                <a href={'https://github.com/Kashiff11/Meshed'} target="_blank"><button className="test">Github Repo</button></a>
               </div>
             </div>
           </div>
         </div>
         <div className={selected===projects[2] ? "show" : "dont_show"}>
-          <p className="projects_into">My Poetry Collection</p>
+        <div className="meshedInfo">
+            <div className="meshedPic"><img src={mypoetrycollection} alt="meshed screen grab" className="meshed" /></div>
+            <div className="meshedDesc">
+              <p className="desc">Full-stack app with full CRUD built using Ruby on Rails, PostgresSQL, and React.
+              Users can add their favorite poems and poets and read a user’s feed of all poems.</p>
+              <div className="buttons">
+                <a href={'https://nifty-bohr-a8b873.netlify.app'} target="_blank"><button className="test">Visit App</button></a>
+                <a href={'https://github.com/Kashiff11/MyPoemsCollection.com'} target="_blank"><button className="test">Github Repo</button></a>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={selected===projects[3] ? "show" : "dont_show"}>
-          <p className="projects_into">Nurseline</p>
+        <div className="meshedInfo">
+            <div className="meshedPic"><img src={nurseline} alt="meshed screen grab" className="meshed" /></div>
+            <div className="meshedDesc">
+              <p className="desc">Fullstack app for nurses and healthcare workers with full CRUD built in partnership with UX team. Built using React, CSS, Express, MongoDB.</p>
+              <div className="buttons">
+                <a href={'https://nurseline.netlify.app/'} target="_blank"><button className="test">Visit App</button></a>
+                <a href={'https://github.com/MakerMacAttack/nurse-line'} target="_blank"><button className="test">Github Repo</button></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

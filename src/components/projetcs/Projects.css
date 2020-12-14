@@ -69,3 +69,21 @@
 .desc {
   font-size: xx-large;
 }
+
+a {
+  font-size: xx-large;
+  color: yellow;
+}
+
+.test {
+  color: black;
+  border: none;
+  background-color: yellow;
+  border-radius: 20px;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
