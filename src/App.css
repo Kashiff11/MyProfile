@@ -43,15 +43,25 @@
   grid-row-start: 3;
   grid-row-end: 4;
   display: grid;
-  grid-template-rows: 90vh 90vh;
+  grid-template-rows: 100vh 100vh;
 }
 
 .app_projects {
   grid-row-start: 1;
   grid-row-end: 2;
+  height: 100%;
 }
 
 .app_contact_me_page {
   grid-row-start: 2;
   grid-row-end: 3;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, darkgray 20%, black 10% );
+  color: white;
+  font-family: 'Flamenco', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
 }
