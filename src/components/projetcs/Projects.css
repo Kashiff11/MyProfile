@@ -1,14 +1,71 @@
 .projects_container {
   height: 100%;
-  width: 80%;
-  background-color: rgb(1,21,0);
+  width: 100%;
+  background: linear-gradient(180deg, black 15%, darkgray);
   color: white;
   font-family: 'Flamenco', cursive;
   display: flex;
   flex-direction: column;
+}
+
+.projects_title {
+  width: 100%;
+  height: 10%;
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.page_title {
+  font-size: xxx-large;
+  font-weight: 800;
+  color: yellow;
+}
+
+.projects_into {
+  font-size: xx-large;
+  font-weight: 500;
+  color: yellow;
+  margin: 0 10% 0 10%
+
+}
+
+.projects_navbar {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects_info {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeProject {
+  color: yellow;
+  font-size: xx-large;
+}
+.meshedInfo {
+  display: flex;
+  padding: 0% 5%;
 }
 
 .meshed {
-  width: 30%;
+  width: 90%;
+}
+
+.meshedPic {
+  width: 50%;
+}
+
+.meshedDesc {
+  width: 50%;
+}
+
+.desc {
+  font-size: xx-large;
 }
