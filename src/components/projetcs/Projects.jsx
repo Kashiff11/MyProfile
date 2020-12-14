@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 export default function Projects() {
 
-  const projects = ["Intro", "Meshed Family", "My Poetry Collection", "Nurseline"];
+  const projects = ["Meshed Family", "My Poetry Collection", "Nurseline"];
 
   const [selected, setSelected] = useState(projects[0])
 
@@ -28,9 +28,6 @@ export default function Projects() {
       </div>
       <div className="projects_info">
         <div className={selected===projects[0] ? "show" : "dont_show"}>
-          <p className="projects_into">Here are some of my recent projects. Each project is an app with full CRUD functionallity. Click on the links above to see more details for each project.</p>
-        </div>
-        <div className={selected===projects[1] ? "show" : "dont_show"}>
           <div className="meshedInfo">
             <div className="meshedPic"><img src={meshed} alt="meshed screen grab" className="meshed" /></div>
             <div className="meshedDesc">
@@ -43,7 +40,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className={selected===projects[2] ? "show" : "dont_show"}>
+        <div className={selected===projects[1] ? "show" : "dont_show"}>
         <div className="meshedInfo">
             <div className="meshedPic"><img src={mypoetrycollection} alt="meshed screen grab" className="meshed" /></div>
             <div className="meshedDesc">
@@ -56,7 +53,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className={selected===projects[3] ? "show" : "dont_show"}>
+        <div className={selected===projects[2] ? "show" : "dont_show"}>
         <div className="meshedInfo">
             <div className="meshedPic"><img src={nurseline} alt="meshed screen grab" className="meshed" /></div>
             <div className="meshedDesc">

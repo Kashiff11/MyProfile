@@ -23,7 +23,7 @@
   font-weight: 1000;
   padding-right: 7%;
   margin-top: 25px;
-  transition: 1s ease-in;
+  transition: .2s ease-in;
 }
 
 .menu {
@@ -74,4 +74,8 @@
 
 .menu_change #bar2 {
   opacity: 0;
+}
+
+#navgit {
+  width: 50px;
 }

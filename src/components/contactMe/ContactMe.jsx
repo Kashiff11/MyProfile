@@ -13,6 +13,7 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <div className="form_container">
+        <h2>Contact Me</h2>
         <form onSubmit={this.submitForm} action="https://formspree.io/f/xknpqvzn" method="POST" className="form">
           <div className="input_containers">
             <input type="name" name="name" placeholder="Full Name" className="name_input"/>

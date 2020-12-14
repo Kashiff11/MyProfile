@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Navbar.css'
+import githublogo from '../../images/githublogo.png'
 
 export default function Navbar() {
 
@@ -11,10 +12,12 @@ export default function Navbar() {
 
   return (
     <div className={bars===false ? "menu_bar" : "menu_bar_change"}>
-      <p id="home_page_menu_item" className={bars===false ? "menu_item" : "menu_item_change"}>Home Page</p>
-      <p id="about_me_menu_item" className={bars===false ? "menu_item" : "menu_item_change"}>About Me</p>
-      <p id="my_projects_menu_item" className={bars===false ? "menu_item" : "menu_item_change"}>My Projects</p>
-      <p id="contact_me_menu_item" className={bars===false ? "menu_item" : "menu_item_change"}>Contact Me</p>
+      <a id="home_page_menu_item" className={bars===false ? "menu_item" : "menu_item_change"}>Home Page</a>
+      <a id="about_me_menu_item" className={bars===false ? "menu_item" : "menu_item_change"}>About Me</a>
+      <a id="my_projects_menu_item" className={bars===false ? "menu_item" : "menu_item_change"}>My Projects</a>
+      <a id="contact_me_menu_item" className={bars === false ? "menu_item" : "menu_item_change"}>Contact Me</a>
+      <a href={'https://github.com/Kashiff11'} target="_blank" id="git_hib_menu_item" className={bars === false ? "menu_item" : "menu_item_change"}>Github Profile</a>
+      <a href={'https://www.linkedin.com/in/kashiffhkhan/'} target="_blank" id="git_hib_menu_item" className={bars === false ? "menu_item" : "menu_item_change"}>Linkedin Profile</a>
       
       <div className={bars === false ? "menu" : "menu_change"} onClick={onMenuClick}>
         <div id="bar1" className="bar"></div>
