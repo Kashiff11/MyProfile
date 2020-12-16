@@ -26,3 +26,18 @@ p {
   color: green;
   font-weight: bold;
 }
+
+@media screen and (max-width: 414px) {
+
+  .home_page_container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, black 65%, rgba(0,0,0,50%) );
+    color: white;
+    font-family: 'Flamenco', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+
+}
