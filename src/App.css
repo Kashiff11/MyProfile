@@ -65,12 +65,4 @@
 
 @media screen and (max-width: 414px) {
 
-  .app_navbar {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    position: fixed;
-    margin-left: 60%;
-  }
-
 }
