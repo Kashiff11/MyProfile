@@ -3,7 +3,7 @@
   width: 100%;
   background: linear-gradient(180deg, black 15%, darkgray);
   color: white;
-  font-family: 'Flamenco', cursive;
+  font-family: "Flamenco", cursive;
   display: flex;
   flex-direction: column;
 }
@@ -26,8 +26,7 @@
   font-size: xx-large;
   font-weight: 500;
   color: yellow;
-  margin: 0 10% 0 10%
-
+  margin: 0 10% 0 10%;
 }
 
 .projects_navbar {

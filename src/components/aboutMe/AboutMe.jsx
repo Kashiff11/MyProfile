@@ -18,8 +18,6 @@ import githublogo from '../../images/githublogo.png'
 import galogo from '../../images/galogo.png'
 import kkhan from '../../images/kkhan.png'
 
-
-
 export default function AboutMe() {
 
   const tabs = ['Who am I', 'Skills', 'Experience', 'Education']
@@ -35,7 +33,7 @@ export default function AboutMe() {
               const active = (tab === selected ? 'active' : '');
               return(
                 <div className='' onClick={() => setSelected(tab)} key={tab}>
-                  <p className={active}>{tab}</p>
+                  <p className={active} >{tab}</p>
                 </div>
               )
             })

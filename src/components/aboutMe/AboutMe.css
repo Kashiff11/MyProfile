@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   color: white;
-  font-family: 'Flamenco', cursive;
+  font-family: "Flamenco", cursive;
 }
 
 .about_me_inner_full_div {
@@ -32,17 +32,14 @@
   font-weight: bolder;
 }
 
-
-
 .nav-link {
   color: white;
 }
 
 .content {
   color: white;
-  padding:0px 50px;
+  padding: 0px 50px;
   display: flex;
-
 }
 
 .dont_show {
@@ -80,8 +77,6 @@
   font-size: xx-large;
   font-weight: 700;
 }
-
-  
 
 .icon_container {
   display: flex;
@@ -134,11 +129,19 @@
   width: 60px;
 }
 
-.rails_logo, .mongodb_logo, .nodejs_logo, .postgresSQL_logo, .express_logo, .materialUI {
+.rails_logo,
+.mongodb_logo,
+.nodejs_logo,
+.postgresSQL_logo,
+.express_logo,
+.materialUI {
   width: 100px;
 }
 
-.bootstrap, .git_logo, .html, .azure {
+.bootstrap,
+.git_logo,
+.html,
+.azure {
   width: 100px;
 }
 
@@ -152,3 +155,5 @@
   margin-top: -10px;
 }
 
+@media screen and (max-width: 414px) {
+} 
